@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #4a6cf7;
+  --background-color: #f8f9fa;
+  --card-color: #ffffff;
+  --text-color: #333333;
+  --border-radius: 8px;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+button, select, input {
+  border-radius: var(--border-radius);
+  transition: all 0.2s ease;
+}
+
+.player-controls {
+  background: var(--card-color);
+  padding: 16px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+} 

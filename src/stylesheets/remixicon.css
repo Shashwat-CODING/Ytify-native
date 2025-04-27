@@ -1,0 +1,216 @@
+/*
+* https://remixicon.com
+* https://github.com/Remix-Design/RemixIcon
+* Copyright RemixIcon.com
+* Released under the Apache License Version 2.0
+*/
+
+@font-face {
+  font-family: "remixicon";
+  src: url("/remixicon.woff2") format("woff2");
+  font-display: swap;
+}
+
+[class^="ri-"],
+[class*="ri-"] {
+  font-family: 'remixicon' !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ri-search-2-line:before {
+  content: "\f0cd";
+}
+
+.ri-settings-line:before {
+  content: "\f0ee";
+}
+
+.ri-skip-back-line:before {
+  content: "\f140";
+}
+
+.ri-skip-forward-line:before {
+  content: "\f144";
+}
+
+.ri-replay-15-line:before {
+  content: "\f354";
+}
+
+.ri-forward-15-line:before {
+  content: "\f32d";
+}
+
+.ri-loader-3-line:before {
+  content: "\eec4";
+}
+
+.ri-filter-2-line:before {
+  content: "\ed23";
+}
+
+.ri-user-line:before {
+  content: "\f264";
+}
+
+.ri-t-shirt-2-line:before {
+  content: "\f1d5";
+}
+
+.ri-external-link-line:before {
+  content: "\ecaf";
+}
+
+.ri-search-2-fill:before {
+  content: "\f0cc";
+}
+
+.ri-delete-bin-2-line:before {
+  content: "\ec1e";
+}
+
+.ri-import-line:before {
+  content: "\f447";
+}
+
+.ri-export-line:before {
+  content: "\f437";
+}
+
+.ri-settings-fill:before {
+  content: "\f0ed";
+}
+
+.ri-more-2-fill:before {
+  content: "\ef76";
+}
+
+.ri-play-list-2-fill:before {
+  content: "\f00c";
+}
+
+.ri-play-list-add-line:before {
+  content: "\f00f";
+}
+
+.ri-repeat-line:before {
+  content: "\f074";
+}
+
+.ri-memories-line:before {
+  content: "\f341";
+}
+
+.ri-play-large-line:before {
+  content: "\f509";
+}
+
+.ri-stop-circle-fill:before {
+  content: "\f19e";
+}
+
+.ri-pause-circle-fill:before {
+  content: "\efd5";
+}
+
+.ri-play-circle-fill:before {
+  content: "\f008";
+}
+
+.ri-volume-down-fill:before {
+  content: "\f29b";
+}
+
+.ri-volume-mute-fill:before {
+  content: "\f29d";
+}
+
+.ri-volume-up-fill:before {
+  content: "\f2a1";
+}
+
+.ri-radio-line:before {
+  content: "\f052";
+}
+
+.ri-compass-3-line:before {
+  content: "\ebbe";
+}
+
+.ri-heart-line:before {
+  content: "\ee0f";
+}
+
+.ri-heart-fill:before {
+  content: "\ee0e";
+}
+
+.ri-draggable:before {
+  content: "\f38f";
+}
+
+.ri-link:before {
+  content: "\eeb2";
+}
+
+.ri-bug-line:before {
+  content: "\eb07";
+}
+
+.ri-edit-line:before {
+  content: "\ec86";
+}
+
+.ri-calendar-schedule-line:before {
+  content: "\f3f3";
+}
+
+.ri-parent-line:before {
+  content: "\efca";
+}
+
+.ri-close-line:before {
+  content: "\eb99";
+}
+
+.ri-shuffle-line:before {
+  content: "\f124";
+}
+
+.ri-subtract-line:before {
+  content: "\f1af";
+}
+
+.ri-stack-line:before {
+  content: "\f181";
+}
+
+.ri-stack-fill:before {
+  content: "\f180";
+}
+
+.ri-list-check-2:before {
+  content: "\eeb9";
+}
+
+.ri-download-2-fill:before {
+  content: "\ec53";
+}
+
+.ri-skip-forward-fill:before {
+  content: "\f143";
+}
+
+.ri-music-2-line:before {
+  content: "\ef83";
+}
+
+.ri-file-copy-line:before {
+  content: "\ecd5";
+}
+
+.ri-video-line:before {
+  content: "\f282";
+}

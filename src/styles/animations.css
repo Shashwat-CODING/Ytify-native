@@ -1,0 +1,25 @@
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+.control-btn:hover {
+  transform: scale(1.1);
+}
+
+.control-btn:active {
+  transform: scale(0.95);
+}
+
+.progress-slider {
+  height: 6px;
+  transition: height 0.2s;
+}
+
+.progress-slider:hover {
+  height: 10px;
+} 

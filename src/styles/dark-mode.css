@@ -1,0 +1,22 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #121212;
+    --card-color: #1e1e1e;
+    --text-color: #f1f1f1;
+  }
+}
+
+.dark-mode-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: var(--card-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+} 

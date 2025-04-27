@@ -1,0 +1,67 @@
+nav {
+  display: flex;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    opacity: 50%;
+
+    p,
+    i {
+      pointer-events: none;
+    }
+
+    &:hover,
+    &.active {
+      opacity: 1;
+    }
+  }
+}
+
+@media(orientation:portrait) {
+
+  nav {
+    height: fit-content;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2% 0;
+
+    a {
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-evenly;
+
+      i {
+        font-size: 1.2rem;
+      }
+
+      p {
+        margin: 0;
+        padding: 0;
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+}
+
+@media(orientation:landscape) {
+
+  nav {
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: large;
+
+    a {
+      margin-bottom: 2dvh;
+
+      i {
+        margin-right: 5%;
+      }
+    }
+
+  }
+
+}

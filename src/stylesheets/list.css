@@ -1,0 +1,88 @@
+#listTools {
+
+  button {
+    i {
+      pointer-events: none;
+    }
+  }
+
+  &.playlist {
+
+    #clearListBtn,
+    #removeFromListBtn,
+    #sortCollectionBtn,
+    #shareCollectionBtn,
+    #radioCollectionBtn,
+    #renameCollectionBtn,
+    #deleteCollectionBtn {
+      display: none
+    }
+  }
+
+
+  &.channel {
+    button {
+      display: none;
+    }
+
+    #subscribeListBtn,
+    #viewOnYTBtn {
+      display: inline-block !important;
+    }
+  }
+
+  &.reserved {
+    button {
+      display: none;
+    }
+
+    #clearListBtn,
+    #removeFromListBtn {
+      display: inline-block !important;
+    }
+  }
+
+  &.collection {
+
+    #clearListBtn,
+    #importListBtn,
+    #subscribeListBtn,
+    #viewOnYTBtn {
+      display: none;
+    }
+
+  }
+
+  &.supermix,
+  &.shared {
+    button {
+      display: none;
+    }
+
+    #importListBtn,
+    #enqueueAllBtn {
+      display: inline-block !important;
+    }
+  }
+}
+
+#listContainer {
+  width: 92%;
+
+  &.reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+#viewOnYTBtn,
+#subscribeListBtn {
+  i {
+    pointer-events: none;
+
+    &:after {
+      content: attr(data-state);
+      font-family: 'Noto Sans', sans-serif;
+    }
+  }
+}
